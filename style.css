@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+
+}
+
+.sign-in-section{
+    width: 100%;
+    height: auto;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 20rem;
+}
+
+.sign-in-form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.form-header{
+    width: 100%;
+    height: auto;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.tailwind-logo-container{
+    width: 3.125rem;
+    height: auto;
+}
+
+.tailwind-logo-container img{
+    width: 100%;
+    height: auto;
+}
+
+.form-title-container{
+    width: fit-content;
+    height: auto;
+}
+
+.form-title-container h2{
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+}
+
+.sign-in-details{
+    width: 100%;
+    height: auto;
+}
+
+.sign-in-details form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+
+.email-address{
+    width: 100%;
+    height: auto;
+}
+
+.email-address label{
+    font-size: 0.6rem;
+    color: #2A2F39;
+}
+
+.email-input{
+    width: 100%;
+    height: auto;
+}
+
+.email-input input{
+    width: 100%;
+    height: auto;
+    border-color: gray;
+    border-radius: 0.2rem;
+    border: 0.1rem solid;
+    padding: 0.2rem;
+}
+
+.password{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.password-forget{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.password-label{
+    width: fit-content;
+    height: auto;
+}
+
+.password-label label{
+   font-size: 0.6rem;
+   color: #2A2F39;
+}
+
+.forgot-password{
+    width: fit-content;
+    height: auto;
+}
+
+.forgot-password a{
+    font-size: 0.6rem;
+    text-decoration: none;
+    color: #463DE1;
+
+}
+
+.password-input{
+    width: 100%;
+    height: auto;
+}
+
+.password-input input{
+    width: 100%;
+    height: auto;
+    border-color: gray;
+    border-radius: 0.2rem;
+    border: 0.1rem solid;
+    padding: 0.2rem;
+} 
+
+.sign-in-button{
+    width: 100%;
+    height: auto;
+}
+
+.sign-in-button button{
+    width: 100%;
+    height: auto;
+    background-color: #463DE1;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 0.6rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.sign-up{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up p{
+    font-size: 0.6rem;
+    color: gray;
+}
+
+.sign-up a{
+    font-size: 0.6rem;
+    text-decoration: none;
+    color: #463DE1;
+}
+
